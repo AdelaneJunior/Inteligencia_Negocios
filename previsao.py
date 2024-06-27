@@ -1,12 +1,8 @@
-import plotly.express as px
-import plotly.graph_objs as go
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import mean_absolute_error
-import pandas as pd
 import numpy as np
-import datetime as dt
+import pandas as pd
+import plotly.express as px
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_absolute_error
 
 
 def realiza_previsao(vendas, produtos_vendidos):
